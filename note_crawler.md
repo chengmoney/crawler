@@ -38,7 +38,16 @@ r.encoding = 'utf-8'
     - r.raise_for_status()  如果不是200,产生异常requests.HTTPError
     - 通用代码框架见 通用代码框架.py
  
+# html文件的解析
+## 1.安装BeautifulSoup库
+    使用pip install BeautifulSoup4 安装
+    导入：from bs4 import BeautifulSoup
     
+## 2.使用方法
+- 见 解析html文件.py
+
+
+      
     
 
      
