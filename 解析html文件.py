@@ -3,9 +3,9 @@ import requests
 url = 'http://python123.io/ws/demo.html'
 kv = {'user-agent': 'mozilla/5.0'}
 try:
-    r = requests.get(url, headers = kv)
+    r = requests.get(url, headers=kv)
     # r = requests.get(url)
-    r.raise_for_status
+    r.raise_for_status()
     demo = r.text
 except:
     print('爬取失败')

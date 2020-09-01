@@ -1,0 +1,21 @@
+# 爬虫相关的库
+1. 网路请求：
+    - urllib
+    - requests/urllib3
+    - selenium(UI自动测试、动态js渲染)
+    - appium（手机app的爬虫或UI测试）
+2. 数据解析：
+    - re正则
+    - xpath
+    - bs4
+    - json
+3. 数据储存
+    - pymysql
+    - mongodb
+    - elasticsearch
+4. 多任务库
+    - 多线程（threading）、线程队列（queue）
+    - 协程（asynio、gevent/eventlet)
+5. 爬虫框架
+    - scrapy
+    - scrapy-redis 分布式（多机爬虫）
